@@ -1,0 +1,146 @@
+/* ALL */
+* {
+  box-sizing: border-box;
+}
+
+.body {
+  background-color: #f3f5f5;
+}
+/* Fonts */
+
+/* font {
+  BOLD
+  font-family: "Stratos Deliveroo Web";
+  REGULAR
+  font-family: 'IBM Plex Sans';
+  font-weight: normal;
+  BOLD
+  font-family: 'IBM Plex Sans';
+  font-weight: bold;
+} */
+
+.container {
+  max-width: 1208px;
+  margin: 0 auto;
+}
+
+/* HEADER */
+.header {
+  border-bottom: lightgrey 1px solid;
+}
+
+.header img {
+  display: flex;
+  justify-content: flex-start;
+  height: 50px;
+  margin: 10px 0;
+}
+
+/* SECTION RESTAURANT */
+
+article {
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid blue; */
+  height: 200px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.left-restaurant {
+  /* border: 1px solid green; */
+  width: 68%;
+}
+
+.left-restaurant h2 {
+  font-family: "IBM Plex Sans";
+  font-weight: bold;
+  font-size: 32px;
+  margin-top: 20px;
+}
+
+.left-restaurant p {
+  font-family: "IBM Plex Sans";
+  font-weight: normal;
+  font-size: 22px;
+  margin-top: 20px;
+  color: #868a8a;
+}
+
+/* .right-restaurant {
+  border: 1px solid orange;
+} */
+
+.right-restaurant img {
+  height: 200px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+/* SECTION LISTE ITEM */
+
+.left-section {
+  width: 820px;
+}
+
+.categories h3 {
+  font-family: "Stratos Deliveroo Web";
+  font-size: 25px;
+  padding-top: 20px;
+  margin: 40px 0;
+}
+
+.wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.wrap article {
+  display: flex;
+  justify-content: center;
+  width: 400px;
+  height: 170px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.wrap .article .left-meal-description {
+  /* border: 1px green solid; */
+  padding-left: 10px;
+  width: 70%;
+}
+
+.wrap .article .meal-description {
+  /* border: 1px red solid; */
+  text-overflow: ellipsis;
+  overflow: hidden;
+  line-height: 1.2em;
+  height: 68px;
+  width: 250px;
+  font-family: "IBM Plex Sans";
+  font-weight: normal;
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.wrap .article .price {
+  /* border: 1px red solid; */
+  font-family: "IBM Plex Sans";
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.wrap h4 {
+  font-family: "IBM Plex Sans";
+  font-weight: normal;
+  font-size: 22px;
+}
+
+.wrap img {
+  width: 130px;
+  height: 130px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-right: 10px;
+}
